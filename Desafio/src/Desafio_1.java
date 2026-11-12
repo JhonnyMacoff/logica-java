@@ -1,7 +1,7 @@
 
 import java.util.Scanner;                     // 1. traz a ferramenta
 
-public class Main {
+public class Desafio_1 {
     public static void main(String[] args) {
         Scanner leitor = new Scanner(System.in);   // 2. cria o leitor do teclado
         int pergunta = 1;
