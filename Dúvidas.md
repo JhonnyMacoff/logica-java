@@ -25,3 +25,17 @@ Tranquilo, precisei pesquiser para entender apenas como funciona o charAt e "pal
 Desafio 5:
 Pensei na lógica de pegar uma palavra(string) e atribuir letra por letra em outra string de tras pra frente. Só quebrei a cabeça pra saber qual função usar dentro do for.
 --------------------------------------------------------------------
+Desafio 6:
+Pesquisei sobre mas li primeiro as regras e tentei executar sem ver o resultado e deu certo. Unica coisa é que em vez de usar o próprio i do for eu criei outra variavel, depois eu tirei e deixei apenas o int i.
+--------------------------------------------------------------------
+Desafio 7
+Tentei ir por conta usando if(dig%dig == 0 && dig%1 == 0 && dig>0), mas vi que não adianta, então pesquisei e vi que precisa de for. 
+--------------------------------------------------------------------
+Desafio 8
+Comecei com if, depois vi que precisaria de um for, fiz errado pois coloquei fatorial = n, em vez de =1, dai multiplicou 3*3 = 9 dpois 9*2 sendo que fatorial de 3 é 6; Dpois de corrigir coloquei um while pra verificar se o valor está dentro do limite do int e deu certo.
+--------------------------------------------------------------------
+Desafio 9
+Tranquilo. Precisei de ajuda para lembrar o que array e como citar o indice dele, de resto consegui por conta.
+--------------------------------------------------------------------
+Desafio 10
+
