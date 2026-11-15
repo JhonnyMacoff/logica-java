@@ -14,6 +14,9 @@ public class Desafio_3 {
         System.out.print("Digite o primeiro número: ");
         int n3 = leitor.nextInt();
 
+        int maximo = Math.max(n,n2);
+        System.out.println(maximo);
+
    // Usando >= para lidar caso haja empate nos maiores
         if (n >= n2 && n >= n3) {
             System.out.print("O primeiro número " + n + " é o maior!");

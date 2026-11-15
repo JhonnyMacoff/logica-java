@@ -6,11 +6,17 @@ public class Desafio_10 {
         String inverso = "";
         System.out.print("Escreva uma palavra: ");
         String palavra = leitor.nextLine();
+        boolean ehPalindromo = true;
 
-        for (int i = palavra.length(); i>0;i--){
-            inverso += palavra.charAt(i-1);
+        for (int inicio = 0, fim = palavra.length()-1; inicio < fim; inicio ++, fim--){
+            if(palavra.charAt(inicio) != palavra.charAt(fim)){
+                ehPalindromo = false;
+                break;
+            }
+
         }
-       if (inverso.equals(palavra)){
+
+       if (ehPalindromo){
            System.out.print(palavra + " é um palindromo ");
        }else {
            System.out.print("Não é um palindromo");

@@ -10,13 +10,13 @@ public class Desafio_2 {
 
         System.out.print("BEM VINDO AO PAR/IMPAR TEST!!! \n");
 
-        while(continuar == true) {
+        while(continuar) {
 
             System.out.print("Digite um número: ");
 
             if (leitor.hasNextInt()) {
-                int n = leitor.nextInt(); // 3. lê um inteiro
-                if (n % 2 == 0) {
+                int numero = leitor.nextInt(); // 3. lê um inteiro
+                if (numero % 2 == 0) {
                     System.out.print("Este número é PAR!!!\n");
                 } else {
                     System.out.print("Este número é IMPAR!!!\n");

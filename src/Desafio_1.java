@@ -11,8 +11,9 @@ public class Desafio_1 {
             System.out.print("Digite um número? ");
             int n = leitor.nextInt();             // 3. lê um inteiro
 
-            for (int i = 1; i <= n; i++) {
+            for (int i = 0; i <= n; i++) {
                 total += i;
+                System.out.println(total);
             }
 
             System.out.println("A soma de 1 até " + n + " é: "+ total);
